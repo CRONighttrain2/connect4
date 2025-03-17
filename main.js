@@ -1,8 +1,8 @@
 import { createBoard, playMove } from "./connect4.js";
 
 function getWebSocketServer() {
-  if (window.location.host === "cronighttrain2.github.io") {
-    return "https://low-giralda-cronight-a806a638.koyeb.app/";
+  if (window.location.host === "cronighttrain2.github.io/connect4/") {
+    return "wss://low-giralda-cronight-a806a638.koyeb.app/";
   } else if (window.location.host === "localhost:8000") {
     return "ws://localhost:8001/";
   } else {
