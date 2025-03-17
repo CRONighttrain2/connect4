@@ -13,7 +13,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
 function getWebSocketServer() {
   if (window.location.host === "CRONighttrain2.github.io") {
-    return "wss://connect4.app/";
+    return "wss://connect4.koyeb.app/";
   } else if (window.location.host === "localhost:8000") {
     return "ws://localhost:8001/";
   } else {
